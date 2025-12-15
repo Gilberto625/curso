@@ -25,4 +25,5 @@ function getUser(id: number): User | undefined {
     }
 }
 
-//console.log(getUser(user.id));
+console.log(getUser(user.id));
+
