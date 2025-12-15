@@ -24,6 +24,10 @@ function getUser(id: number): User | undefined {
         return undefined;
     }
 }
+hola();
+console.log(getUser(user.id));
 
-//console.log(getUser(user.id));
+function hola() {
+    console.log("Hola Mundo");
+}
 
